@@ -1,3 +1,19 @@
+#Made by: Kouah Mohammed Aymen
+#Computer science student at "National Computer science Engineering School, Algiers (ESI)"
+#E-mail: jm_kouah@esi.dz
+#Github: https://github.com/aymenkouah
+
+#Requires installaling "pygame"
+#https://www.pygame.org/news
+
+#Keep the mp3s, wav, photos and the code in the same folder
+#if encountering any problem with the music, just comment the Pygame.mixer... lines
+
+#note that there are many bugs with the game as multiple levels which were not implemented and instead were commented
+#if you want to use multiple levels, there exists a "borders" function which creates the border
+#most of the other functions already are suitable for multiple levels, and it only requires adding few lines of code
+#use the variable border to help you(alrready defined)
+
 import pygame
 from random import randint
 from time import sleep
