@@ -41,17 +41,17 @@ screen = pygame.display.set_mode(screen_dim)
 
 
 pygame.mixer.music.load(
-    "F:\\Desktop\LearnPython\Games\SnakeGame\\Nostalgia.mp3")
+    "Nostalgia.mp3")
 pygame.mixer.music.play(loops=-1)
 
-eat_sound = pygame.mixer.Sound("F:\Desktop\LearnPython\Games\SnakeGame\sf.wav")
+eat_sound = pygame.mixer.Sound("sf.wav")
 
 game_over = pygame.mixer.Sound(
-    "F:\Desktop\LearnPython\Games\SnakeGame\gameover.wav")
+    "gameover.wav")
 
 
 pygame.display.set_caption("Kinda like snake")
-icon = pygame.image.load("F:\Desktop\LearnPython\Games\SnakeGame\\snake.png")
+icon = pygame.image.load("snake.png")
 pygame.display.set_icon(icon)
 
 
